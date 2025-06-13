@@ -6,6 +6,7 @@ git clone --recurse-submodules https://github.com/joliachen/Ruka-Teach.git
 
 Then set up conda environment:
 ```bash
+cd Ruka-Teach
 conda env create -f conda_env.yaml
 conda activate force
 bash setup.sh
