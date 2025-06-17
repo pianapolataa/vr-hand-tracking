@@ -2,3 +2,8 @@
 	path = Franka-Teach
 	url = https://github.com/NYU-robot-learning/Franka-Teach.git
 	branch = Ruka-Teach
+
+[submodule "deoxys_control"]
+    path = src/deoxys_control
+    url = https://github.com/NYU-robot-learning/deoxys_control.git
+    branch = main
