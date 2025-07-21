@@ -1,7 +1,7 @@
 [submodule "Franka-Teach"]
 	path = Franka-Teach
 	url = https://github.com/NYU-robot-learning/Franka-Teach.git
-	branch = Ruka-Teach
+	branch = joliachen/vr-hand-tracking
 
 [submodule "deoxys_control"]
     path = src/deoxys_control

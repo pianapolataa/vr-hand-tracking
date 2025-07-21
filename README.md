@@ -16,14 +16,14 @@ password to nuc is `dexpilot123`
 
 First git clone the repository:
 ```bash
-git clone --recurse-submodules https://github.com/joliachen/Ruka-Teach.git
+git clone --recurse-submodules https://github.com/joliachen/vr-hand-tracking.git
 ```
 
 Then set up conda environment:
 ```bash
-cd Ruka-Teach
+cd vr-hand-tracking
 conda env create -f conda_env.yaml
-conda activate ruka_teach
+conda activate frankateach
 bash setup.sh
 ```
 Make sure you stay around to enter your sudo password and 0.13.3 as the libfranka version when prompted
