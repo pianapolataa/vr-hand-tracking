@@ -9,6 +9,6 @@
     branch = main
 
 [submodule "RUKA"]
-    path = RUKA
+    path = Franka-Teach/RUKA
     url = https://github.com/joliachen/RUKA.git
     branch = joliachen/vr-hand-tracking
