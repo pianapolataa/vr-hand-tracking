@@ -11,6 +11,10 @@ python -m pip install -e .
 python -m pip install -U -r requirements.txt
 cd ../../..
 
+# Franka-Teach
+cd Franka-Teach
+pip install -e .
+pip install -r requirements.txt
 
 # Franka-Env
 cd franka-env
@@ -19,14 +23,7 @@ cd ..
 
 git submodule update --init --recursive
 
-# Franka-Teach
-cd Franka-Teach
-pip install -e .
-pip install -r requirements.txt
-
-
 # RUKA (under Franka-Teach directory)
-git clone --recurse-submodules https://github.com/joliachen/RUKA.git
 cd RUKA
 pip install -r requirements.txt
 pip install -e .
