@@ -14,7 +14,6 @@ pip install -e .
 pip install -r requirements.txt
 cd ../..   
 
-echo ">>> 安装 deoxys_control"
 cd src/deoxys_control
 pip install -e .
 pip install -r requirements.txt
