@@ -7,3 +7,8 @@
     path = src/deoxys_control
     url = https://github.com/NYU-robot-learning/deoxys_control.git
     branch = main
+
+[submodule "RUKA"]
+    path = RUKA
+    url = https://github.com/joliachen/RUKA.git
+    branch = joliachen/vr-hand-tracking

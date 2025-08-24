@@ -25,4 +25,12 @@ git submodule update --init --recursive
 cd Franka-Teach
 pip install -e .
 pip install -r requirements.txt
+
+
+# RUKA (under Franka-Teach directory)
+git clone --recurse-submodules https://github.com/joliachen/RUKA.git
+cd RUKA
+pip install -r requirements.txt
+pip install -e .
 cd ..
+
