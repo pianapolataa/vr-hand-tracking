@@ -11,8 +11,6 @@ python -m pip install -e .
 python -m pip install -U -r requirements.txt
 cd ../../..
 
-# ReSkin
-python -m pip install reskin_sensor
 
 # Franka-Env
 cd franka-env

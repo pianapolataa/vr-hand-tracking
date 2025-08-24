@@ -8,7 +8,6 @@ cd workspace/franka_controller/deoxys_control/deoxys
 ```
 
 
-
 ```bashrc
 start_new_franka="ssh -NL localhost:8000:172.16.0.2:443 nuc"
 ```
